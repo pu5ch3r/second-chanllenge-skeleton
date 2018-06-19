@@ -8,23 +8,19 @@ class Car:
         self._start_car = False
 
     def start_car(self):
-        if self._start_car:
-            raise Exception("The car is already on")
+        # Todo: implement me
         self._start_car = True
 
     def turn_off_car(self):
-        if self._speed != 0:
-            raise Exception("Cannot turn off car because of speed")
+        # Todo: implement me
         self._start_car = False
 
     def add_speed(self):
         self._speed += 5
 
     def remove_speed(self):
-        if self._speed <= 0:
-            self._speed = 0
-        else:
-            self._speed -= 5
+        # Todo: implement me
+        self._speed -= 5
 
     def current_speed(self):
         return self._speed
