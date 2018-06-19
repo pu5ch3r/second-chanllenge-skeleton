@@ -1,4 +1,4 @@
-"""Coding Challenge #2
+"""Coding Challenge Skeleton #2
 """
 
 
