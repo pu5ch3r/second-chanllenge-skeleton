@@ -17,7 +17,7 @@ class EasyTestCase(unittest.TestCase):
     def test_easy_input_two(self):
         # Todo: use the object car to add speed 2 times.
         # Todo: use the object car to stop the car.
-        # Todo: make sure that the current speed is 0.
+        # Todo: make sure that the current speed is 0 not -10.
         pass
 
     def tearDown(self):
