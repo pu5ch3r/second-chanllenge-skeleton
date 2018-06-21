@@ -40,7 +40,7 @@ class MediumTestCase(unittest.TestCase):
 
     def test_medium_input_two(self):
         # Todo: use the object car to remove speed 4 times.
-        # Todo: make sure that the current speed is 0.
+        # Todo: raise an exception if the user tried to turn off the car in a speed greater than 0.
         pass
 
     def tearDown(self):
@@ -58,7 +58,9 @@ class HardTestCase(unittest.TestCase):
         pass
 
     def test_hard_input(self):
-        # Todo: raise an exception if the user tried to turn off the car at a speed greater than 0.
+        # Todo: use the object car to add speed 2 times.
+        # Todo: use the object car to add remove speed 4 times.
+        # Todo: make sure that the current speed is 0. 
         pass
 
     def test_hard_input_two(self):
