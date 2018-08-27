@@ -59,7 +59,7 @@ class HardTestCase(unittest.TestCase):
 
     def test_hard_input(self):
         # Todo: use the object car to add speed 2 times.
-        # Todo: use the object car to add remove speed 4 times.
+        # Todo: use the object car to remove speed 4 times.
         # Todo: make sure that the current speed is 0. 
         pass
 
